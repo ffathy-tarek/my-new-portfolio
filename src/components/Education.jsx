@@ -92,7 +92,7 @@ function AcademicCard({ data, inView }) {
       }}
     >
       {/* Header */}
-      <div className="flex items-start justify-between mb-4">
+      <div className="flex flex-col flex-row items-start sm:justify-between gap-3 mb-4">
         <div className="flex items-center gap-3">
           <div
             className="w-11 h-11 rounded-xl flex items-center justify-center flex-shrink-0"
@@ -156,7 +156,7 @@ function CertsCard({ data, inView }) {
         transition: { duration: 0.25 },
       }}
     >
-      <div className="flex items-start justify-between mb-4">
+      <div className="flex flex-col flex-row items-start sm:justify-between gap-3 mb-4">
         <div className="flex items-center gap-3">
           <div
             className="w-11 h-11 rounded-xl flex items-center justify-center flex-shrink-0"
@@ -214,7 +214,7 @@ function TrainingCard({ data, inView }) {
         transition: { duration: 0.25 },
       }}
     >
-      <div className="flex items-start justify-between mb-4">
+      <div className="flex flex-col flex-row items-start sm:justify-between gap-3 mb-4">
         <div className="flex items-center gap-3">
           <div
             className="w-11 h-11 rounded-xl flex items-center justify-center flex-shrink-0"
