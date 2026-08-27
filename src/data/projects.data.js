@@ -8,7 +8,7 @@ export const PROJECTS = [
   {
     id: 'home-maintenance',
     title: 'Home Maintenance Service Marketplace Platform',
-    dates: 'Nov 2025 – Jul 2026',
+    dates: 'Apr 2026 – Jul 2026',
     role: 'DEPI Graduation Team Project',
     shortSummary:
       'A production-oriented multi-service marketplace platform connecting customers with verified home service providers through a secure booking system.',
