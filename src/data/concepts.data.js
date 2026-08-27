@@ -18,6 +18,25 @@ export const CONCEPTS = [
     image: '/concepts/clinic.png',
   },
   {
+    id: 'cafe',
+    title: 'Café & Restaurant Website',
+    subtitle: 'A premium café and restaurant website concept designed to showcase the brand, menu, atmosphere, and location through a modern and immersive digital experience.',
+    tech: ['React', 'Vite', 'TypeScript', 'Tailwind CSS', 'Lucide React', 'Responsive Design'],
+    fullDescription: 'A reusable premium café and restaurant landing page template focused on strong visual presentation, easy menu browsing, responsive layouts, and a smooth experience across mobile and desktop devices.',
+    highlights: [
+      'Cinematic hero section with CTA',
+      'Data-driven menu with categories',
+      'Sticky category navigation with scroll spy',
+      'Responsive mobile and desktop layouts',
+      'Visit Us section with location and contact information',
+      'English / Arabic RTL & LTR support',
+      'Social media integration',
+      'Accessible and SEO-friendly structure'
+    ],
+    liveUrl: 'https://coffehouse-two.vercel.app/',
+    image: '/concepts/Cafe.png',
+  },
+  {
     id: 'gym',
     title: 'Fitness Club Website',
     subtitle: 'A modern website concept for gyms and fitness centers to showcase memberships, training programs, facilities, and direct communication with potential members.',
